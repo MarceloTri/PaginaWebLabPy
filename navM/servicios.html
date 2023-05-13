@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Laboratorio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="../css/style.css">
+ <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!--Menu de navegacion superior-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="../logo.html">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Inicio</a></li>
+        <li ><a href="nosostros.html">Nosotros</a></li>
+        <li  class="active"><a href="#">Servicios</a></li>
+        <li><a href="contactos.html">Contacto</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!--Cuerpo -->
+
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <!--Enlaces div izquierdo-->
+    <div class="col-sm-2 sidenav2">
+    </div>
+    <!--Centro -->
+    <div class="col-sm-8 text-left"> 
+      <h1><strong>Nuestros Servicios</strong></h1>
+      <p> Estudios de laboratorio</p>
+      <p><kbd>Clic en el boton para desplegar más información</kbd></p><br>
+     <table >
+          
+      <tr>      
+        <td><br>  
+          <img src="../img/servicio/radio.jpg" class="imgServ" alt="misionLb">
+          <button type="button" class="btn btn-primary bton" data-toggle="modal" data-target="#myModal6">
+            Radiología
+          </button>
+             <!-- The Modal -->
+              <div class="modal fade" id="myModal6">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Radiología</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body texto">
+            
+            El Departamento de Radiología dispone de los medios tecnológicos más avanzados para el diagnóstico preciso, permitiendo realizar estudios sumamente rápidos y utilizando protocolos con mínima radiación para protección y seguridad del paciente. 
+            Ventajas que ofrece nuestro departamento de radiología digitalizado:
+            Rapidez: El médico podrá consultar vía internet las imágenes de los estudios solicitados, una vez validados por el médico radiólogo.
+            Ecológico: Los estudios en CD no contaminan. Las placas radiográficas generan basura contaminante; Los líquidos del revelador tienen residuos de plata y se eliminan a los ríos. Las placas radiográficas no son degradables.
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Ok</button>
+          </div>
+          
+        </div>
+      </div>
+              </div>
+      </td>
+
+               
+           <td>
+                <img src="../img/servicio/ultra.jpg" class="imgServ" alt="misionLb">
+                <button type="button" class="btn btn-primary bton" data-toggle="modal" data-target="#myModal2">
+                  Ultrasonidos
+                </button>
+                   <!-- The Modal -->
+                    <div class="modal fade" id="myModal2">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Ultrasonidos</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body texto">
+                  El Ultrasonido diagnóstico forma parte importante de la Imagenología moderna, los equipos con los que contamos tienen la capacidad de realizar:
+                  Estudios convencionales-Endovaginal-Transrectal-Alta resolución para detectar lesiones deportivas-Ecocardiograma pediátrico y del adulto-Ultrasonido 3D y 4D.
+                  Con los transductores de alta resolución es posible obtener imágenes confiables que permiten hacer un diagnostico preciso y veraz.  Los transductores lineales y convexos con que contamos van desde 3.5 hasta 15 mHz, teniendo los últimos avances de la tecnología como foco multizonal, imagen confocal, banda ancha multifrecuencia e impedancia acoplada, medición de intima media, etc.
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Ok</button>
+                </div>
+                
+              </div>
+            </div>
+                    </div>
+            </td>
+ 
+              <td>
+                    <img src="../img/servicio/mast.JPEG" class="imgServ" alt="misionLb">
+                     <button type="button" class="btn btn-primary bton" data-toggle="modal" data-target="#myModal3">
+                      Mastografía Digital
+                      </button>
+                            <!-- The Modal -->
+                              <div class="modal fade" id="myModal3">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                  
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Mastografía Digital</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body texto">
+                      Contamos con un equipo de Mamografía Digital de última generación, cuyo diseño y componentes están especialmente diseñados para otorgar un mayor confort a nuestras pacientes. Cuenta con un sistema de compresión el cual se adapta
+                      al espesor de la mama, permitiendo una mejor calidad en las imágenes. La Mamografía Digital representa un gran avance en el estudio de la glándula mamaria, es particularmente útil en la valoración de mamas densas, permitiendo una mejor visualización del tejido mamario.
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Ok</button>
+                    </div>
+                    
+                  </div>
+                </div>
+                             </div>
+              </td>
+               
+             
+                    <td>
+                        <img src="../img/servicio/embarazo.jpg" class="imgServ" alt="misionLb">  
+                            <button type="button" class="btn btn-primary bton" data-toggle="modal" data-target="#myModal4">
+                              Prueba de embarazo
+                            </button>
+                             <!-- The Modal -->
+                             <div class="modal fade" id="myModal4">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                  
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Prueba de embarazo</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body texto">
+                        La prueba de embarazo en suero se utiliza para confirmar las sospechas de embarazo y se 
+                        realiza a través de una muestra de sangre. Ésta se puede llevar a cabo con resultados certeros
+                         hasta 8 días después de la concepción.
+            
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Ok</button>
+                    </div>
+                    
+                  </div>
+                </div>
+                             </div>
+              
+                    </td>
+            </td>
+
+            <td>  
+              <img src="../img/servicio/Examen general de orina.jpg "  class="imgServ" alt="visionLb" /> 
+             <button type="button" class="btn btn-primary bton" data-toggle="modal" data-target="#myModal">
+               Examen general de orina
+             </button>
+           <!-- The Modal -->
+             <div class="modal fade" id="myModal">
+         <div class="modal-dialog">
+           <div class="modal-content">
+           
+             <!-- Modal Header -->
+             <div class="modal-header">
+               <h4 class="modal-title">Examen general de orina</h4>
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+             </div>
+             
+             <!-- Modal body -->
+             <div class="modal-body texto">
+                 Son un conjunto de pruebas que buscan detectar y medir los componentes que eliminan los 
+                 riñones mediante la orina. Se pueden detectar células o fragmentos de ellas, bacterias, sangre, etcétera.
+     
+             </div>
+             
+             <!-- Modal footer -->
+             <div class="modal-footer">
+               <button type="button" class="btn btn-danger" data-dismiss="modal">Ok</button>
+             </div>
+             
+           </div>
+         </div>
+             </div>
+     </td>
+          
+         </tr>
+   
+   </table>
+
+  </div>
+    <!-- div derecho-->
+  <div class="col-sm-2 sidenav">
+      
+  </div>
+
+</div>
+</div>
+
+<!--Pie de pagina -->
+<footer class="container-fluid text-center">
+  <p><em>&copy; 2018 Marcelo Trinidad</em></p>
+</footer>
+
+</body>
+</html>
